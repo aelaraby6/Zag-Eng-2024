@@ -1,0 +1,82 @@
+body{
+    background-color: rgba(209,219,232,255);
+
+}
+
+.all{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    gap: 15px;
+}
+.cards .card{
+    height: 90vh;
+    background-color: white;
+    height: 400px;
+    width: 370px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease
+}
+.cards .card:hover {
+    transform: translateY(-10px); 
+}
+.cards .card:active {
+    transform: translateY(-5px); 
+}
+.image img {
+    display: block;
+    width: 100%;
+    margin-bottom:0;
+    transition: transform 0.3s ease;
+}
+
+.image img:hover{
+    transform: translateY(-10px) scale(1.06);
+}
+.image img:active{
+    transform: translateY(-5px) scale(1.07);
+}
+.cards .card .content{
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.cards .card .content h2{
+    color: rgb(47, 47, 47);
+    margin: 0;       
+    padding: 0;
+}
+.cards .card .content p{
+    color: #645c5cee;
+}
+.cards .card .content .ship{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards .card .content .ship p{
+    font-weight: 800;
+    font-size: 19px;
+    color: rgb(212, 52, 52);
+}
+
+.cards .card .content .ship button{
+    border: none;
+    background-color: #3398d9;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    transition:background-color 0.1s ease;
+}
+.cards .card .content .ship button:hover{
+    background-color: #287bb1;
+}
