@@ -17,7 +17,7 @@ console.log(`Smallest number: ${minnum}`);
 
 
 
-/*anothor solution */
+/*another solution */
 
 
 numbers.sort((x, y) => x - y);
